@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <h1 id="heading"><p>IMDB MOVIE APP</p></h1>
+    <form class="input">
+        <input type="text" id="key" name="q" placeholder="API_KEY"/>
+        <button type="submit" id="keyBtn"><img src="./search_key.svg"/></button>
+    </form>
+    <form class="search">
+        <input type="search" id="search" name="q" placeholder="Search"/>
+        <button type="submit" id="searchBtn"><img src="./Search.png"/></button>
+    </form>
+    <div class="result" >
+        <div class="cardItem">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg" id="img"></img>
+            <div class="text" >
+                <p id="serial">1</p>
+                <p id="title">Guardians of the Galaxy Vol. 2</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
