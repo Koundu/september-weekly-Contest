@@ -1,0 +1,173 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0px;
+}
+body{
+    background: linear-gradient(35deg, #ffffff , #DEDEDE);
+    font-family: 'Mulish',sans-serif;
+    width: 1280px;
+    height: 750px;
+}
+
+#line{
+    position: absolute;
+    background: #5BF7DB;
+    margin-top: 265px;
+     height: 10px;
+     width: 100%;
+     margin-inline: 0px;
+     -webkit-transform: rotate(15deg);
+}
+
+
+form{
+    position: relative;
+    margin-left: 418px;
+    margin-top: 100px;
+    width: 444px !important;
+    height: 537px !important;
+    font-family: 'Mulish',sans-serif;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 6px 8px 0px #0000000D;
+}
+
+ form label{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 46px;
+    margin-top: 3px;
+    background-color: inherit;
+}
+
+form > p{
+    margin-left: 46px;
+    margin-top: 46px;
+    padding-top: 46px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    width: fit-content;
+}
+
+
+form >h1{
+    margin-left: 46px;
+    font-size: 24px;
+    height: 37px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+
+
+form input{
+    border: 1px solid #DEDEDE !important;
+    width: 352px;
+    height:  36px;
+    top: 245px;
+    left: 464px;
+    padding: 0px, 12px, 0px, 12px;
+    border-radius: 6px;
+    border: 1px;
+    gap: 12px;
+    margin-left: 46px;
+    background-color: inherit;
+}
+#signup{
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+}
+
+form button{
+    width: 353px;
+    height: 55.8px;
+    margin-left: 46px;
+    margin-top: 17.9px;
+    border-radius: 6px;
+    gap: 10px;
+    background: linear-gradient(#625BF7 100%, #463EEA 100%);
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Mulish',sans-serif;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+form > #error{
+    display: none;
+    color: #625BF7;
+    margin-top: 46px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 340px;
+    height: 37px;
+    padding: 0px !important;
+}
+
+form > p,h1,input,br,#error{
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: inherit;
+}
+p{
+    margin-left: 480px;
+}
+
+
+#hand-gesture{
+    width: fit-content;
+    font-size: 20px;
+    background-color: inherit;
+}
+
+#heading{
+    color:#625BF7;
+    font-weight: 700;
+    font-size: 24px;
+    width: 340px;
+    height: 37px;
+    margin-top: 37px;
+    margin-left: 466px;
+    text-align: center;
+}
+
+#temp{
+    position: absolute;
+    border: 1px solid red;
+}
+
+#profile{
+    display: flex;
+}
+
+#temp > h2{
+    width: inherit;
+    height: 37px;
+    margin-top: 25px;
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#temp > #fName,#email,#token,#password{
+    border: 1px solid green;
+    padding: 0px;
+}
+
+
